@@ -1,0 +1,18 @@
+{
+ "case_id": "demo-product-arena-04-4b82ad21",
+ "topic_id": "product-arena-04-4b82ad21",
+ "topic_title": "写作08｜引言与相关工作写作",
+ "difficulty": 1,
+ "domain": "writing",
+ "task_instruction": "演示用例：读取同目录的论文与文献材料，写出研究背景、相关工作、研究空白与贡献的要点，每条引用与论断绑定原文证据；无法判断的写入 uncertainties。",
+ "output_contract": {
+  "deliverable": "研究背景、相关工作、研究空白与贡献四部分齐全的引言与相关工作成稿",
+  "evidence_map": "每条引用与论断到来源定位的映射，含相关工作分组依据与空白推导",
+  "change_log": "修改动作、原因、人工确认项和未解决问题",
+  "preserved_facts": "引用元数据、年份、作者、方法名称与数值不可凭空改变",
+  "case_id": "原样保留"
+ },
+ "evaluation": {
+  "mode": "demo"
+ }
+}
