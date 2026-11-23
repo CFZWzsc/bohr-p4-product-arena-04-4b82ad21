@@ -1,0 +1,43 @@
+{
+  "_comment": [
+    "阶段 B 的判断文件模板。复制到 /app/work/agent_judgement.json 后按实际材料填写。",
+    "quote 必须是材料里的逐字片段 —— 脚本会逐条校验，找不到就退回。",
+    "case_id 必须与 /input/case.json 里的 case_id 一致。",
+    "本文件是合成示例，段落 id 取自 examples/demo-case/material.md。"
+  ],
+  "case_id": "demo-product-arena-04-4b82ad21",
+  "claims": [
+    {
+      "text": "研究背景指出的核心问题是低资源场景下的标注成本，并给出了两条引用。",
+      "kind": "reported",
+      "evidence": [
+        {
+          "paragraph_id": "P002",
+          "quote": "现有方法在低资源场景下的标注成本仍然很高（Wang et al., 2022; Li & Chen, 2023）。"
+        }
+      ]
+    }
+  ],
+  "answers": [
+    {
+      "question": "研究空白是否由已引文献的缺口推出？",
+      "answer": "是。材料指出两类路线分别在提示设计与参数更新上改进，但缺少同一标注预算下的对照分析。",
+      "evidence": [
+        {
+          "paragraph_id": "P002",
+          "quote": "现有方法在低资源场景下的标注成本仍然很高（Wang et al., 2022; Li & Chen, 2023）。"
+        }
+      ]
+    }
+  ],
+  "deliverable": "（示例）依据材料写成的目标产物正文；实际运行时由执行 Agent 按题面填写。",
+  "contract_fields": {},
+  "uncertainties": [
+    {
+      "kind": "citation_metadata_unverified",
+      "item": "Wang et al., 2022; Li & Chen, 2023",
+      "detail": "材料只给出作者与年份，未提供题名、DOI 或出版信息",
+      "resolution": "在成稿中保留原引用形式，元数据补齐交人工确认"
+    }
+  ]
+}
