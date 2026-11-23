@@ -90,7 +90,7 @@ python scripts/run_skill.py --case /input/case.json --out /app/output/result.jso
 - [ ] `related_work` 按主题分组，未被引用的题录已列出。
 - [ ] 未生成“首次/首个”等新颖性断言，无编造文献。
 
-## Cycle 02 执行保证与评分对齐
+## 执行保证与评分对齐
 
 调用顺序（固定）：
 
