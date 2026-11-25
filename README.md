@@ -2,9 +2,9 @@
 
 本题：写作08｜引言与相关工作写作（product-arena-04-4b82ad21，赛道 writing）。
 
-能力定位：把论文材料与已引文献整理成背景—相关工作—空白—贡献四部分承接的引言成稿，并逐条绑定引用与论断
+能力定位：写背景、已有工作（按主题分组）、研究缺口、本文贡献四部分，贡献项标注推断并给出依据段落。
 
-交付物：result.json（契约齐全）、引言与相关工作稿、evidence_map、change_log
+交付物：intro.md、citation-check.json、gap-contribution.json
 
 
 ## 这个 Skill 做什么
