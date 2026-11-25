@@ -29,7 +29,7 @@ description: 当需要完成引言与相关工作写作并产出可复核结果�
 
 ## 交付物
 
-result.json（契约齐全）、可编辑引言与相关工作稿、evidence_map、change_log、格式与引用核对清单、材料缺口自报。
+intro.md、citation-check.json、gap-contribution.json
 
 交付物的**内容契约**由运行时 `output_contract` 决定（见下）；下面「交付物落盘要求」给出的是必须真实存在的**文件**。
 
